@@ -1,7 +1,7 @@
 const Contact = (props) => {
   return (
     <div>
-      <div className="bg-black py-10 text-white h-[50vh]">
+      <div className="bg-black py-10 text-white h-[40h]">
         <h2 className="text-5xl text-center">Contact Me</h2>
         <p className="text-2xl text-center">
           Reach out to me via any of my Socials

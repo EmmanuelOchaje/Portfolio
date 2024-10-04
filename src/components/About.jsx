@@ -10,19 +10,19 @@ import github from "../assets/images/github.png";
 
 const About = () => {
   return (
-    <div className="bg-black flex">
-      <div className="w-[50%] flex justify-center items-center h-[]">
-        <div className="m-auto">
-          <h2 className="text-5xl text-white m-auto w-[30rem]">
+    <div className="bg-black md:flex">
+      <div className="md:w-[50%] flex justify-center items-center h-[]">
+        <div className="m-auto py-5">
+          <h2 className="text-3xl text-white text-center lg:text-left m-auto md:w-[30rem]">
             Hi, I am Adoche
           </h2>
-          <h2 className="text-5xl text-white m-auto w-[30rem]">
+          <h2 className="text-3xl text-white text-center lg:text-left m-auto md:w-[30rem]">
             Welcome to my Room.
           </h2>
-          <p className="text-white w-[30rem] pt-5 text-[19px]">
+          <p className="text-white text-center lg:text-left w-[25rem] m-auto lg:w-[30rem] pt-5 text-[19px]">
             I am Emmanuel Ochaje Adoche, A Frontend Developer,
           </p>
-          <p className="text-white w-[30rem] text-[19px]">
+          <p className="text-white text-center lg:text-left w-[25rem] m-auto lg:w-[30rem] text-[19px]">
             With good years of Experience in the Amazing Tech Space.
           </p>
           {/* <p className="text-white w-[25rem] text-[19px]">
@@ -31,12 +31,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="py-10 w-[50%]">
+      <div className="py-10 md:w-[50%]">
         <div className="">
           <h2 className="text-white text-4xl text-center">My Tech Stack</h2>
         </div>
         {/* stack */}
-        <div className="m-auto flex flex-wrap w-[75]">
+        <div className="md:m-auto flex justify-center items-center flex-wrap md:w-[75]">
           <div className="m-3">
             <img src={html} className="w-[100px]" alt="" />
             <h3 className="text-center text-white">HTML</h3>

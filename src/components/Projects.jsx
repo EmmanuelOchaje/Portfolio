@@ -7,7 +7,7 @@ const Projects = (props) => {
           Projects I've Worked On So Far
         </h2>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center items-center m-auto">
           <div className="proj w-[400px] h-[200] rounded-xl m-5">
             <div className="bg-black/40 w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
