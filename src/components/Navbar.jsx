@@ -5,7 +5,20 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   function showMenu() {
-    setMenu(!menu);
+    setMenu(true);
+    document.body.style.overflow = "hidden";
+    // if (menu) {
+    // } else {
+    //   document.body.style.overflow = "hidden";
+    // }
+  }
+  function hideMenu() {
+    setMenu(false);
+    document.body.style.overflow = "auto";
+    // if (menu) {
+    // } else {
+    //   document.body.style.overflow = "hidden";
+    // }
   }
 
   return (
@@ -37,7 +50,7 @@ const Navbar = () => {
       </div>
       {menu ? (
         <div
-          onClick={() => showMenu()}
+          onClick={() => hideMenu()}
           className="fixed bg-black/50 w-screen h-screen"
         ></div>
       ) : null}
