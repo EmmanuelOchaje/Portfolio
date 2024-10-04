@@ -2,8 +2,8 @@ const Contact = (props) => {
   return (
     <div>
       <div className="bg-black py-10 text-white h-[40h]">
-        <h2 className="text-5xl text-center">Contact Me</h2>
-        <p className="text-2xl text-center">
+        <h2 className="text-3xl md:text-5xl text-center">Contact Me</h2>
+        <p className="text-[16px] sm:text-2xl text-center">
           Reach out to me via any of my Socials
         </p>
         <div className="text-white flex justify-center items-center">

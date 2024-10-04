@@ -49,7 +49,7 @@ const About = () => {
           <div className="m-3">
             <img
               src={jsimg}
-              className="w-[75px] sm:w-[100px] h-[100px]"
+              className="w-[75px] sm:w-[100px] h-[75px] sm:h-[100px]"
               alt=""
             />
             <h3 className="text-center text-white">JS</h3>
@@ -57,7 +57,7 @@ const About = () => {
           <div className="m-3">
             <img
               src={reactimg}
-              className="w-[75px] sm:w-[100px] h-[100px]"
+              className="w-[75px] sm:w-[100px] h-[75px] sm:h-[100px]"
               alt=""
             />
             <h3 className="text-center text-white">REACT</h3>
@@ -65,7 +65,7 @@ const About = () => {
           <div className="m-3">
             <img
               src={reduxImg}
-              className="w-[75px] sm:w-[100px] h-[100px]"
+              className="w-[75px] sm:w-[100px] h-[75px] sm:h-[100px]"
               alt=""
             />
             <h3 className="text-center text-white">REDUX</h3>
@@ -73,7 +73,7 @@ const About = () => {
           <div className="m-3">
             <img
               src={sass}
-              className="w-[75px] sm:w-[100px] h-[100px]"
+              className="w-[75px] sm:w-[100px] h-[75px] sm:h-[100px]"
               alt=""
             />
             <h3 className="text-center text-white">SASS</h3>
