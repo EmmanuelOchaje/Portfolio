@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="overflow-y-hidden">
-      <div className="h-[70px] px-10 flex justify-between bg-[#000000]">
+      <div className="md:h-[70px] px-10 flex justify-between bg-[#000000]">
         <h1 className="text-2xl md:text-4xl md:my-2 text-white">
           Doch
           <span className=" font-bold text-white">
