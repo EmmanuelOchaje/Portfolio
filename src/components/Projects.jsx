@@ -1,4 +1,3 @@
-import dcribs from "../assets/images/d-cribs.png";
 const Projects = (props) => {
   return (
     <div className="bgblack py-10">
@@ -8,8 +7,8 @@ const Projects = (props) => {
         </h2>
 
         <div className="flex flex-wrap justify-center items-center m-auto">
-          <div className="proj w-[400px] h-[200] rounded-xl m-5">
-            <div className="bg-black/40 w-[400px] h-[200px] rounded-xl">
+          <div className="proj w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/40 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
                 D-cribs WebApp
               </h3>
@@ -19,8 +18,8 @@ const Projects = (props) => {
             </div>
           </div>
 
-          <div className="proj1 w-[400px] h-[200] rounded-xl m-5">
-            <div className="bg-black/40 w-[400px] h-[200px] rounded-xl">
+          <div className="proj1 w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/40 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
                 Gift-Ease WebApp
               </h3>
@@ -30,8 +29,8 @@ const Projects = (props) => {
             </div>
           </div>
 
-          <div className="proj2 w-[400px] h-[200] rounded-xl m-5">
-            <div className="bg-black/50 w-[400px] h-[200px] rounded-xl">
+          <div className="proj2 w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/50 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
                 Foodies Website
               </h3>
@@ -41,8 +40,8 @@ const Projects = (props) => {
             </div>
           </div>
 
-          <div className="proj3 w-[400px] h-[200] rounded-xl m-5">
-            <div className="bg-black/50 w-[400px] h-[200px] rounded-xl">
+          <div className="proj3 w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/50 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
                 Weather App
               </h3>
@@ -52,8 +51,8 @@ const Projects = (props) => {
             </div>
           </div>
 
-          <div className="proj4 w-[400px] h-[200] rounded-xl m-5">
-            <div className="bg-black/50 w-[400px] h-[200px] rounded-xl">
+          <div className="proj4 w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/50 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
                 Image Gallery
               </h3>

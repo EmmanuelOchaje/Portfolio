@@ -38,40 +38,64 @@ const About = () => {
         {/* stack */}
         <div className="md:m-auto flex justify-center items-center flex-wrap md:w-[75]">
           <div className="m-3">
-            <img src={html} className="w-[100px]" alt="" />
+            <img src={html} className="w-[75px] sm:w-[100px]" alt="" />
             <h3 className="text-center text-white">HTML</h3>
           </div>
           <div className="m-3">
-            <img src={css} className="w-[100px]" alt="" />
+            <img src={css} className="w-[75px] sm:w-[100px]" alt="" />
             <h3 className="text-center text-white">CSS</h3>
           </div>
 
           <div className="m-3">
-            <img src={jsimg} className="w-[100px] h-[100px]" alt="" />
+            <img
+              src={jsimg}
+              className="w-[75px] sm:w-[100px] h-[100px]"
+              alt=""
+            />
             <h3 className="text-center text-white">JS</h3>
           </div>
           <div className="m-3">
-            <img src={reactimg} className="w-[100px] h-[100px]" alt="" />
+            <img
+              src={reactimg}
+              className="w-[75px] sm:w-[100px] h-[100px]"
+              alt=""
+            />
             <h3 className="text-center text-white">REACT</h3>
           </div>
           <div className="m-3">
-            <img src={reduxImg} className="w-[100px] h-[100px]" alt="" />
+            <img
+              src={reduxImg}
+              className="w-[75px] sm:w-[100px] h-[100px]"
+              alt=""
+            />
             <h3 className="text-center text-white">REDUX</h3>
           </div>
           <div className="m-3">
-            <img src={sass} className="w-[100px] h-[100px]" alt="" />
+            <img
+              src={sass}
+              className="w-[75px] sm:w-[100px] h-[100px]"
+              alt=""
+            />
             <h3 className="text-center text-white">SASS</h3>
           </div>
           <div className="m-3">
-            <img src={tailwind} className="w-[100px] h-[100px]" alt="" />
+            <img
+              src={tailwind}
+              className="w-[75px] sm:w-[100px] h-[100px]"
+              alt=""
+            />
             <h3 className="text-center text-white">TAILWIND</h3>
           </div>
           <div className="m-3">
-            <img src={git} className="w-[100px] h-[100px]" alt="" />
+            <img src={git} className="w-[75px] sm:w-[100px] h-[100px]" alt="" />
             <h3 className="text-center text-white">GIT</h3>
           </div>
           <div className="m-3">
-            <img src={github} className="w-[100px] h-[100px]" alt="" />
+            <img
+              src={github}
+              className="w-[75px] sm:w-[100px] h-[100px]"
+              alt=""
+            />
             <h3 className="text-center text-white">GITHUB</h3>
           </div>
         </div>
