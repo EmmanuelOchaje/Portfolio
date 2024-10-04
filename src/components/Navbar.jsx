@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="overflow-y-hidden">
       <div className="h-[70px] px-10 flex justify-between bg-[#000000]">
-        <h1 className="text-4xl md:my-2 text-white">
+        <h1 className="text-2xl md:text-4xl md:my-2 text-white">
           Doch
           <span className=" font-bold text-white">
             <i class="bx bx-code"></i>
@@ -31,7 +31,7 @@ const Navbar = () => {
             Contact Me
           </button>
         </div>
-        <span className="md:hidden block">
+        <span className="md:hidden block text-4xl mt-1">
           <i onClick={() => showMenu()} class="bx bx-menu-alt-right"></i>
         </span>
       </div>
