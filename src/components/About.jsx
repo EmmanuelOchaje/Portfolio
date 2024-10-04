@@ -19,10 +19,10 @@ const About = () => {
           <h2 className="text-3xl text-white text-center lg:text-left m-auto md:w-[30rem]">
             Welcome to my Room.
           </h2>
-          <p className="text-white text-center lg:text-left w-[25rem] m-auto lg:w-[30rem] pt-5 text-[19px]">
+          <p className="text-white text-center lg:text-left w-[20rem] m-auto lg:w-[30rem] pt-5 text-[19px]">
             I am Emmanuel Ochaje Adoche, A Frontend Developer,
           </p>
-          <p className="text-white text-center lg:text-left w-[25rem] m-auto lg:w-[30rem] text-[19px]">
+          <p className="text-white text-center lg:text-left w-[20rem] m-auto lg:w-[30rem] text-[19px]">
             With good years of Experience in the Amazing Tech Space.
           </p>
           {/* <p className="text-white w-[25rem] text-[19px]">
