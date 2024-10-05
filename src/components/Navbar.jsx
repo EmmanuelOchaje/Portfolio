@@ -45,7 +45,15 @@ const Navbar = () => {
           </button>
         </div>
         <span className="md:hidden block text-4xl mt-1">
-          <i onClick={() => showMenu()} class="bx bx-menu-alt-right"></i>
+          <span className={menu ? "hidden" : "block"}>
+            <i onClick={() => showMenu()} class="bx bx-menu-alt-right"></i>
+          </span>
+          <span
+            className={menu ? "block" : "hidden"}
+            onClick={() => hideMenu()}
+          >
+            <i class="bx bx-x"></i>
+          </span>
         </span>
       </div>
       {menu ? (

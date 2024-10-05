@@ -77,7 +77,8 @@
 .bxl-gmail {
   background-color: rgba(218, 0, 0, 0.801);
 }
-.bx-menu-alt-right {
+.bx-menu-alt-right,
+.bx-x {
   color: white;
   margin-top: 0.5rem;
 }
