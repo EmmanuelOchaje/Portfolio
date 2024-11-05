@@ -1,28 +1,23 @@
+import Image from "../assets/images/emmy.jpg";
 const Hero = () => {
   return (
-    <div className="flex bg-black/50 text-white py-5">
-      <div className="w-[50%] h-[100%]">
-        <h2 className="md:text-5xl lg:w-[30rem] px-5 lg:m-auto pt-[5rem] text-3xl">
-          <i class="bx bxs-quote-alt-left"></i> Bringing your brand to life in
-          the digiital world.
-        </h2>
+    <div className="flex h-[100vh] bg-black/80 text-white py-5">
+      <div className="w-screen py-20 lg:py-14">
+        <img src={Image} alt="/" className="w-[200px] h- rounded-full m-auto" />
 
-        <h2 className="md:text-5xl  lg:w-[30rem] pt-[5rem] px-5 lg:m-auto text-3xl">
-          Coding like poetry should be short and concise.
-        </h2>
-        {/* <h2 className="text-4xl">Hi, I am Adoche</h2>
-        <h2>Welcome To my Room.</h2> */}
-      </div>
-
-      <div className="w-[50%]">
-        <h2 className="text-white lg:w-[30rem] px-5 lg:m-auto md:text-5xl text-3xl">
-          Talk is cheap, let's Code!
-        </h2>
-
-        <h2 className="text-white lg:w-[30rem] px-5 lg:m-auto md:text-5xl pt-20 text-3xl">
-          Code is like humor. When you have to explain it, it’s bad.{" "}
-          <i class="bx bxs-quote-alt-right"></i>
-        </h2>
+        <div>
+          <h2 className="text-white text-center lg:w-[30rem] px-5 lg:m-auto md:text-5xl pt-2 text-3xl">
+            Hi, I'm Adoche,
+          </h2>
+          <p className="text-center text-2xl mx-10">
+            I'm an Experienced{" "}
+            <span className="font-medium">Web and Mobile App Developer</span>
+          </p>
+          <p className="text-center text-2xl mx-10">
+            I'm good at building things for the Web, and giving you the <br />
+            best mobile experience.
+          </p>
+        </div>
       </div>
     </div>
   );

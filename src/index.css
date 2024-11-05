@@ -18,7 +18,7 @@
   background-position: center;
 }
 .proj {
-  background-image: url("/src/assets/images/d-cribs.png");
+  background-image: url("/src/assets/images/Foods.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,13 +36,19 @@
   background-position: center;
 }
 .proj3 {
-  background-image: url("/src/assets/images/weather-app.png");
+  background-image: url("/src/assets/images/weather.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .proj4 {
   background-image: url("/src/assets/images/image-gallery.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.proj5 {
+  background-image: url("/src/assets/images/konjaa.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

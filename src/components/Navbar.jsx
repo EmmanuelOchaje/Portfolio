@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // const [show, setShow] = useState(false);
@@ -24,24 +26,29 @@ const Navbar = () => {
   return (
     <div className="overflow-y-hidden">
       <div className="md:h-[70px] px-10 flex justify-between bg-[#000000]">
-        <h1 className="text-2xl md:text-4xl md:my-2 text-white">
-          Doch
+        <h1 className="text-2xl md:text-3xl py-2 md:my-2 text-white">
+          <Link to="/">Adoche's</Link>
+
           <span className=" font-bold text-white">
-            <i class="bx bx-code"></i>
+            {/* <i class="bx bx-code"></i> */}
           </span>
         </h1>
 
         <ul className="md:flex hidden">
-          <li className="text-white font-medium m-5 cursor-pointer">About</li>
           <li className="text-white font-medium m-5 cursor-pointer">
-            Projects
+            <Link to="/about">About</Link>
           </li>
-          <li className="text-white font-medium m-5 cursor-pointer">Resume</li>
+          <li className="text-white font-medium m-5 cursor-pointer">
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className="text-white font-medium m-5 cursor-pointer">
+            <Link to="/resume">Resume</Link>
+          </li>
         </ul>
 
         <div className="h-[50px]">
           <button className="bg-white md:block hidden font-medium my-3 p-3 cursor-pointer rounded-[1rem]">
-            Contact Me
+            <Link to="/contact">Contact Me</Link>
           </button>
         </div>
         <span className="md:hidden block text-4xl mt-1">
@@ -73,13 +80,13 @@ const Navbar = () => {
         <div className="mt-[7rem] flex justify-center items-center">
           <ul>
             <li className="text-white text-center font-medium mt-[2rem] cursor-pointer">
-              About
+              <Link to="/about">About</Link>
             </li>
             <li className="text-white text-center font-medium mt-[2rem] cursor-pointer">
-              Projects
+              <Link to="/resume">Resume</Link>
             </li>
             <li className="text-white text-center font-medium mt-[2rem] cursor-pointer">
-              Resume
+              <Link to="/projects">Projects</Link>
             </li>
             <li className="text-white text-center font-medium mt-[2rem] cursor-pointer">
               Contact Me
