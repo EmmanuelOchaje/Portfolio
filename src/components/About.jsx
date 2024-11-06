@@ -11,8 +11,8 @@ import native from "../assets/images/native.png";
 
 const About = () => {
   return (
-    <div className="bg-black md:flex">
-      <div className="md:w-[50%] flex justify-center items-center h-[90vh]">
+    <div className="bg-black md:flex  h-[90vh]">
+      <div className="md:w-[50%] flex justify-center items-center">
         <div className="m-auto py-5">
           <h2 className="text-3xl text-white text-center lg:text-left m-auto md:w-[30rem]">
             Hi, I am Adoche

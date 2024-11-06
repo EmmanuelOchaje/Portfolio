@@ -53,6 +53,12 @@
   background-size: cover;
   background-position: center;
 }
+.proj6 {
+  background-image: url("/src/assets/images/qr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .bxl {
   font-size: 2rem;
   margin: 0.5rem;

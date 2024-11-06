@@ -10,10 +10,10 @@ const Hero = () => {
             Hi, I'm Adoche,
           </h2>
           <p className="text-center text-2xl mx-10">
-            I'm an Experienced{" "}
+            an Experienced{" "}
             <span className="font-medium">Web and Mobile App Developer</span>
           </p>
-          <p className="text-center text-2xl mx-10">
+          <p className="text-center text-xl mx-10">
             I'm good at building things for the Web, and giving you the <br />
             best mobile experience.
           </p>

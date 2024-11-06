@@ -145,6 +145,29 @@ const Projects = (props) => {
               </p>
             </div>
           </div>
+
+          <div className="proj6 w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/50 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
+              <h3 className="text-white text-3xl font-medium text-center pt-20">
+                <a
+                  href="https://qr-generator-eosin-chi.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Qr-Generator
+                </a>
+              </h3>
+              <p className="text-white font-normal text-2xl text-center ">
+                <a
+                  href="https://qr-generator-eosin-chi.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Built with React, TailWindcss
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
