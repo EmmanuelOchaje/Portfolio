@@ -30,6 +30,29 @@ const Projects = (props) => {
             </div>
           </div>
 
+          <div className="proj7 w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
+            <div className="bg-black/40 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
+              <h3 className="text-white text-3xl font-medium text-center pt-20">
+                <a
+                  href="https://m-d-cribs.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  D-cribs-Real Estate
+                </a>
+              </h3>
+              <p className="text-white font-normal text-2xl text-center ">
+                <a
+                  href="https://konjaa.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Built with React, Tailwindcss, Redux
+                </a>
+              </p>
+            </div>
+          </div>
+
           <div className="proj w-[300px] sm:w-[400px] h-[200] rounded-xl m-5">
             <div className="bg-black/40 w-[300px] sm:w-[400px] h-[200px] rounded-xl">
               <h3 className="text-white text-3xl font-medium text-center pt-20">
