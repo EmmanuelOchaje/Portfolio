@@ -43,7 +43,7 @@ const Projects = (props) => {
               </h3>
               <p className="text-white font-normal text-2xl text-center ">
                 <a
-                  href="https://konjaa.com/"
+                  href="https://m-d-cribs.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
